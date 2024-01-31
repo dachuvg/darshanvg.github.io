@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+            <title>
+                Forms
+            </title>
+        </head>
+<body>
+    <!--Forms-->
+    <h3>Exam registration form</h3>
+    <form>
+        Username<input type="text" name="userid" />
+        <br>
+        Password<input type="password" name="password" />
+        <br>
+        <br>
+        Description<br />
+        <textarea rows="7" cols="100" name="desc">
+            Enter description here...
+        </textarea>
+        <br />
+        <br />
+        Select exams to write
+        <br />
+        Maths<input type="checkbox" name="maths" value="on" />
+        Chemistry<input type="checkbox" name="chemistry" value="on" />
+        Physics<input type="checkbox" name="physics" value="on" />
+        English<input type="checkbox" name="english" value="on" />
+        <br />
+        <br />
+        Select day of exam
+        <br />
+        Friday<input type="radio" name="date" value="friday" />
+        Saturday<input type="radio" name="date" value="saturday" />
+        Sunday<input type="radio" name="date" value="sunday" />
+        <br />
+        <br>
+        Select gender
+        <select name="dropdown">
+            <option value="None" selected>None</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+    </form>
+
+</body>
+
+</html>
